@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* style for header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 10px;
+}
+
+ul:hover {
+    cursor: pointer;
+}
+
+button{
+    font-size: 10px;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* main */
+main{
+
+}
+
+.main-{
+}
+
+.main-1{
+    line-height: 30px;
+    background-color: darkslateblue;
+    color: white;
+    height: 350px;
+    padding-left: 100px;
+    border-top: 1px solid white;
+}
+
+.main-1 >h1{
+    line-height: 50px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.main-1 >p{
+    font-size: small;
+}
+
+.main-1 >button{
+    font-size: small;
+    padding: 5px;
+}
+
+
+.main-2{
+    display: block;
+    padding-left: 100px;
+}
+
+.main-2 >h1{
+    margin-bottom: 50px;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+
+.main-2highlight{
+    line-height: 30px;
+    display: flex;
+    gap: 30px;
+    font-size: small;
+}
+
+.MAIN-3{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: darkslateblue;
+    color: white;
+    height: 100px;
+    padding-left: 100px;
+    padding-right: 50px;
+    margin-left: 100px;
+    margin-right: 300px;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+
+.main-3button{
+    background-color: darkslateblue;
+    color: white;
+}
+
+
+/* footer */
+footer{
+    margin-top: 200px;
+}
+
+.footer-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 250px;
+
+}
+
+.footer-2{
+    display: flex;
+    gap: 150px;
+    margin-left: 100px;
+    line-height: 25px;
+    font-size: 10px;
+}
+
+h4{
+    margin-bottom: 15px;
+}
+
